@@ -1,0 +1,44 @@
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  
+    .section2-header {
+      text-align: center;
+  
+      p {
+        color: $color-gris1;
+        margin: 10px;
+      }
+  
+      h2 {
+        color: $color-1;
+      }
+    }
+  
+    #section2-content {
+      display: flex;
+      align-items: flex-start; // aligne le contenu en haut
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+  
+      img {
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+  
+      p {
+        flex: 1;
+        max-width: 500px; // limite la largeur du paragraphe
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #f0f0f0;
+        text-align: justify;
+      }
+    }
+  }
+  
