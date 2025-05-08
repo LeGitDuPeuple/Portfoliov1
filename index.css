@@ -150,7 +150,11 @@ body {
 }
 
 #section3 {
-  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  gap: 2rem;
 }
 #section3 .section3-header {
   text-align: center;
@@ -161,4 +165,44 @@ body {
 }
 #section3 .section3-header h2 {
   color: #5263FF;
+}
+#section3 #section3-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1000px;
+}
+#section3 #section3-content .skill-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: #242F42;
+  border-radius: 15px;
+}
+#section3 #section3-content .skill-block h3 {
+  color: #5263FF;
+  margin-bottom: 0.5rem;
+}
+#section3 #section3-content .skill-block .skills-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+#section3 #section3-content .skill-block .skills-all .skills {
+  width: 30%; /* environ 3 par ligne */
+  text-align: center;
+  cursor: pointer;
+}
+#section3 #section3-content .skill-block .skills-all .skills p {
+  opacity: 0;
+}
+#section3 #section3-content .skill-block .skills-all i {
+  font-size: 3rem;
+  color: #5263FF;
+}
+#section3 #section3-content .skill-block .skills-all i:hover {
+  color: none;
 }/*# sourceMappingURL=index.css.map */
