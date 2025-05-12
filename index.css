@@ -227,4 +227,49 @@ body {
 }
 #section4 .section4-header h2 {
   color: #5263FF;
+}
+#section4 .portfolio .buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+#section4 .portfolio .buttons .btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #5263FF;
+  color: #5263FF;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 1rem;
+  transition: 0.3s;
+}
+#section4 .portfolio .buttons .btn:hover {
+  color: #1F1F1F;
+  background-color: #5263FF;
+}
+#section4 .portfolio .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+#section4 .portfolio .projects .project {
+  width: 300px;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+#section4 .portfolio .projects .project.react {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section4 .portfolio .projects .project h3 {
+  margin-bottom: 1rem;
+  color: #333;
 }/*# sourceMappingURL=index.css.map */
