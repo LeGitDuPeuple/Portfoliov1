@@ -259,12 +259,18 @@ body {
 #section4 .portfolio .projects .project {
   width: 300px;
   padding: 1rem;
-  background-color: #f4f4f4;
+  background-color: #242F42;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: none;
 }
-#section4 .portfolio .projects .project.react {
+#section4 .portfolio .projects .project img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+#section4 .portfolio .projects .project.html {
   display: flex;
   flex-direction: column;
   align-items: center;
