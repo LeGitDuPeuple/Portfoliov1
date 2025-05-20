@@ -50,16 +50,16 @@
   
         .project {
           width: 300px;
-          padding: 1rem;
+          padding: 1.25rem;;
           background-color: $color-2;
-          border-radius: 10px;
+          border-radius: 2rem;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
           display: none;
 
           img {
-            width: 250px;
-            height: 250px;
-            border-radius: 15px;
+            width: 270px;
+            height: 300px;
+            border-radius: 1rem;
             margin-bottom: 5px;
           }
   
@@ -72,7 +72,18 @@
   
           h3 {
             margin-bottom: 1rem;
-            color: #333;
+            color: whitesmoke;
+            text-align: center;
+            text-transform: uppercase;
+          }
+
+          button {
+            text-align: center;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            color:  $color-1;
+            background-color: rgba(255, 0, 0, 0);
           }
         }
       }
